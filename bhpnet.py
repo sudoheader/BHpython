@@ -1,3 +1,4 @@
+#!/usr/bin/python3.8
 import sys
 import socket
 import getopt
@@ -5,13 +6,13 @@ import threading
 import subprocess
 
 # define some global variables
-listen             = False
-command            = False
-upload             = False
-execute            = ""
-target             = ""
+listen = False
+command = False
+upload = False
+execute = ""
+target = ""
 upload_destination = ""
-port               = 0
+port = 0
 
 def usage():
     print("BHP Net Tool")
